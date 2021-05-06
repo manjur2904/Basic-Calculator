@@ -1,0 +1,98 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Baloo Bhai 2', cursive;
+    background-color: black;
+}
+.container{
+    width: 970px;
+    height: 650px;
+    background-image: url('image1.png');
+    margin: 50px auto;
+}
+.calculator{
+    width: 320px;
+    height: 520px;
+    background-color: #eaedef;
+    margin: 0 auto;
+    top: 50px;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: chartreuse;
+}
+.result{
+    height: 120px;
+}
+#history{
+    text-align: right;
+    height: 20px;
+    margin: 0 20px;
+    padding-top: 20px;
+    font-size: 15px;
+    color: rgb(58, 54, 54);
+}
+#output{
+    text-align: right;
+    height: 60px;
+    margin: 10px 20px;
+    font-size: 30px;
+
+}
+.keybord{
+    height: 400px;
+}
+.oprator, .number, .empty{
+    width: 50px;
+    height: 50px;
+    margin: 15px;
+    float: left;
+    border-radius: 50%;
+    border-width: 0;
+    font-weight: bold;
+    font-size: 25px;
+    background-color: rgb(209, 234, 238);
+}
+.number, .empty{
+    background-color: #eaedef;
+}
+.number, .oprator{
+    cursor: pointer;
+}
+.oprator:active, .number:active{
+    font-size: 28px;
+}
+.oprator:focus, .number:focus, .empty:focus{
+    outline: 0;
+}
+button:nth-child(1){
+    color: #eaedef;
+    background-color: rgb(238, 75, 75);
+}
+button:nth-child(2){
+    color: #eaedef;
+    background-color: rgb(238, 75, 75);
+}
+button:nth-child(3){
+    color: #eaedef;
+    background-color: rgb(63, 126, 12);
+}
+button:nth-child(4){
+    color: #eaedef;
+    background-color: blueviolet;
+}
+button:nth-child(8){
+    color: #eaedef;
+    background-color: brown;
+}
+button:nth-child(12){
+    color: #eaedef;
+    background-color: coral;
+}
+button:nth-child(16){
+    color: #eaedef;
+    background-color: rgb(255, 187, 0);
+}
+button:nth-child(20){
+    color: #eaedef;
+    background-color: rgb(8, 160, 248);
+}
